@@ -1,0 +1,23 @@
+{
+    "name": "icecrypt",
+    "version": "0.0.1",
+    "description": "Encryption/Decryption module",
+    "main": "src/main.js",
+    "keywords": [
+      "encryption", "encrypt", "crypter", "chiffrer",
+      "decryption", "decrypt", "décrypter", "déchiffrer"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NewGlace/IceCrypt.git"
+    },
+    "author": "NewGlace",
+    "license": "ISC",
+    "dependencies": {
+      "typescript": "^4.3.2"
+    },
+    "devDependencies": {
+      "@types/node": "^15.12.2"
+    }
+  }
+  
