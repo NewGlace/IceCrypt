@@ -33,18 +33,18 @@ class Client {
         if (typeof(encryptedText) !== "string") throw new Error("The value is not a string");
         const result = await WebSocketRequest({type: "enCrypt", token: this.#token, text: encryptedText});
 
-        if (result.type !== "success") throw new Error("Error "+result.content);
+        if (result.type !== "success") throw new Error(`Error ${result.content}`);
         return result.content;
     }
     async #init() {
         const result = await WebSocketRequest({type: "getToken", token: this.#token});
-        if (result.type !== "success") throw new Error("Error token is not validate");
+        if (result.type !== "success") throw new Error(`Error ${result.content}`);
     }
     static async generateToken() {
         const result = await WebSocketRequest({type: "generateToken"});
         if (result.type === "success") {
             return result.token;
-        } throw new Error("Error connection");
+        } throw new Error(`Error ${result.content}`);
     }
 }
 
