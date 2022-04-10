@@ -1,4 +1,5 @@
 const WebSocket = require("ws");
+const id =  Buffer.from(`${Date.now()}-${Math.random()}`).toString("base64");
 
 const WebSocketRequest = async ({type, token, text}) => {
     return new Promise(async (resolve, _) => {
@@ -10,7 +11,7 @@ const WebSocketRequest = async ({type, token, text}) => {
             const wsClient = new WebSocket("ws://kaniwork.com:2323");
 
             wsClient.onopen = event => {
-                wsClient.send(JSON.stringify({ type:type, token: token, text: text}));
+                wsClient.send(JSON.stringify({ id: id, type:type, token: token, text: text}));
 
                 wsClient.onmessage = event => { 
                     try {
