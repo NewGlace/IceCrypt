@@ -1,6 +1,6 @@
 {
     "name": "icecrypt",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Encryption/Decryption module",
     "main": "src/main.js",
     "keywords": [

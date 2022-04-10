@@ -1,11 +1,11 @@
 <div align="center">
   <h1>IceCrypt</h1>
   <p>
-    <a href="https://www.npmjs.com/package/IceCrypt"><img src="https://img.shields.io/npm/v/IceCrypt?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/IceCrypt"><img src="https://img.shields.io/npm/dt/IceCrypt?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/icecrypt"><img src="https://img.shields.io/npm/v/icecrypt?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/icecrypt"><img src="https://img.shields.io/npm/dt/icecrypt?maxAge=3600" alt="NPM downloads" /></a>
   </p>
   <p>
-    <a href="https://www.npmjs.com/package/IceCrypt"><img src="https://nodei.co/npm/IceCrypt.png?downloads=true&stars=true" alt="NPM Banner"></a>
+    <a href="https://www.npmjs.com/package/icecrypt"><img src="https://nodei.co/npm/icecrypt.png?downloads=true&stars=true" alt="NPM Banner"></a>
   </p>
 </div>
 
