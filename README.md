@@ -41,6 +41,7 @@ const enCryptedText = client.enCrypt("Your Text");
 #### deCrypt
 ```js
 const deCryptedText = client.deCrypt("RDYFTUKGYHIUJOI");
+// Your Text
 ```
 
 # Discord
